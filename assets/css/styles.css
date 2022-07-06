@@ -6,8 +6,28 @@
     padding: 0;
 }
 
-
 body {
+    color: #3a3a3a;
     font-family: Lato, sans-serif;
     font-weight: 300;
+}
+
+/* headings & logo */
+
+h1, h2 {
+    color: #252525;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+}
+
+#main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    /* float: left; */ 
+    font-size: 280%;
+    text-decoration: none;
 }
