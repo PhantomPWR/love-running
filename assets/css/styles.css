@@ -25,12 +25,16 @@ h1, h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 30px;
 }
 
 #logo {
-    /* float: left; */ 
-    font-size: 280%;
+    font-size: 240%;
     text-decoration: none;
+}
+
+#main-header nav {
+    width: 320px;
 }
 
 /* navigation links */
@@ -45,6 +49,7 @@ h1, h2 {
 
 #menu li {
     list-style-type: none;
+    text-align: center;
 }
 
 #menu a {
