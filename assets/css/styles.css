@@ -297,6 +297,10 @@ footer {
         order: 3;
     }
 
+    #circle-cover-bg {
+        width: 300px;
+    }
+
     hr {
         display: none;
     }
