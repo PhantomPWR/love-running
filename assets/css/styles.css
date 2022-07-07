@@ -279,19 +279,24 @@ footer {
         height: 1200px;
         margin: 0 auto;
     }
+
     #welcome {
-        padding: 30px auto;
+        padding: 30px 0;
         margin: 0;
     }
+
     #about-container {
         flex-direction: column;
     }
+
     [id*="-about"] {
         width: 100%;
     }
+
     #center-about {
         order: 3;
     }
+
     hr {
         display: none;
     }
@@ -304,7 +309,40 @@ footer {
         align-items: flex-start;
         flex-direction: column;
     }
+
+    #logo {
+        font-size: 160%;
+    }
+
     #menu {
-        padding-bottom: 30px;
+        padding: 10px 0 30px;
+    }
+
+    #cover-text {
+        left: 0;
+    }
+
+    #club-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #welcome {
+        font-size: 180%;
+    }
+
+    [class*="-about-heading"] {
+        width: inherit;
+    }
+
+    [class*="-about-heading"] h2 {
+        text-align: center;
+        width: 100%;
+    }
+
+    [class*="-about-heading"] p {
+        text-align: center;
+        padding: 0 20px;
     }
 }
