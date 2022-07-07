@@ -226,3 +226,31 @@ hr {
 #times h2 {
     color: #fafafa;
 }
+
+/* footer */
+
+footer {
+    height: 150px;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-networks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.social-networks li {
+    list-style: none;
+    text-align: center;
+}
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
