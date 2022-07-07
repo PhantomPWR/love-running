@@ -321,7 +321,7 @@ footer {
     }
 
     #logo {
-        font-size: 160%;
+        font-size: 150%;
     }
 
     #menu {
@@ -354,5 +354,15 @@ footer {
     [class*="-about-heading"] p {
         text-align: center;
         padding: 0 20px;
+    }
+
+    #photos {column-count: 3;}
+}
+
+/* Small screen sizes below 800px */
+
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
     }
 }
