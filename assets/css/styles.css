@@ -267,3 +267,32 @@ footer {
 #photos img {
     width: 100%;
 }
+
+
+/* Media Queries */
+
+/* Large to medium screensizes - 1200px and below */
+
+@media screen and (max-width: 1200px) {
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    #welcome {
+        padding: 30px auto;
+        margin: 0;
+    }
+    #about-container {
+        flex-direction: column;
+    }
+    [id*="-about"] {
+        width: 100%;
+    }
+    #center-about {
+        order: 3;
+    }
+    hr {
+        display: none;
+    }
+}
