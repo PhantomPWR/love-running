@@ -205,4 +205,24 @@ hr {
     background-size: cover;
     width: 100%;
     overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    width: 20%;
+    height: 300px;
+    border: 2px solid #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+
+#times h2 {
+    color: #fafafa;
 }
