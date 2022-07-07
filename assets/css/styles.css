@@ -296,3 +296,15 @@ footer {
         display: none;
     }
 }
+
+/* Medium screen sizes - 950px and below */
+
+@media screen and (max-width: 950px) {
+    #main-header {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    #menu {
+        padding-bottom: 30px;
+    }
+}
