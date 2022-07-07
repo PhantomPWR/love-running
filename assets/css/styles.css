@@ -119,3 +119,33 @@ h1, h2 {
     right: 150px;
     position: absolute;
 }
+
+/* club ethos */
+
+#club-ethos {
+    height: 600px;
+    width: 100%;
+}
+
+#club-ethos h1 {
+    text-align: center;
+}
+
+#about-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#left-about {
+    background-color: blue;    
+}
+
+#center-about {
+    background-color: darkorange;
+}
+
+#right-about {
+    background-color: green;
+}
