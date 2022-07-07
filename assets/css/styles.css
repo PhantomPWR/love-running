@@ -300,6 +300,16 @@ footer {
     hr {
         display: none;
     }
+
+    #times {
+        flex-direction: column;
+    }
+    
+    #times > div {
+        width: 100%;
+        height: 150px;
+        padding: 0;
+    }
 }
 
 /* Medium screen sizes - 950px and below */
