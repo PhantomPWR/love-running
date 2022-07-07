@@ -127,25 +127,73 @@ h1, h2 {
     width: 100%;
 }
 
-#club-ethos h1 {
+#welcome {
     text-align: center;
+    font-size: 280%;
+    margin: 20px 0px;
 }
 
 #about-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    max-width: 1700px;
+    margin: 0px auto;
 }
 
+[id*="-about"] {
+    display: flex;
+    width: 33%;
+}
+
+#left-about,
+#right-about {
+    padding-top: 30px;
+    flex-direction: column;
+}
 
 #left-about {
-    background-color: blue;    
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 #center-about {
-    background-color: darkorange;
+    display: flex;
+    justify-content: center;
 }
 
 #right-about {
-    background-color: green;
+}
+
+[class*="-about-heading"] {
+    width: 60%;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    text-align: right;
+}
+
+hr {
+    width: 100%;
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+#circle-container {
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+    border-radius: 50%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
+    border-image: initial;
+}
+
+#circle-cover-bg {
+    height: 100%;
+    background: url(../images/ethos-center-image.jpeg) center center no-repeat;
+    border-radius: 50%;
 }
